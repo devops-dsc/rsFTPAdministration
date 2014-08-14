@@ -1,7 +1,7 @@
 rsFTPAdministration
 ===================
 
-
+<pre>
    WindowsFeature FTP
     {
         Ensure = "Present"
@@ -51,3 +51,4 @@ rsFTPAdministration
         #ReadAccess = @("myReadFTP")
         #NoAccess = @("NoAccess")
     }
+</pre>
