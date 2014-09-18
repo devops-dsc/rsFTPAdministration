@@ -1,7 +1,7 @@
 rsFTPAdministration
 ===================
 
-<pre>
+```PoSh
    WindowsFeature FTP
     {
         Ensure = "Present"
@@ -51,4 +51,4 @@ rsFTPAdministration
         #ReadAccess = @("myReadFTP")
         #NoAccess = @("NoAccess")
     }
-</pre>
+```
